@@ -49,7 +49,7 @@ const Home = () => {
       <div id="contact" className="bg-[#0A0F15] py-20">
         <SimpleFooter columns={[{ title: 'Contact Us', items: [{ label: 'Privacy Policy', onClick: () => alert('Privacy Policy clicked') }, { label: 'Terms of Service', onClick: () => alert('Terms of Service clicked') }] }]} copyrightText="© 2023 LumenShutter" onPrivacyClick={() => alert('Privacy clicked')} />
       </div>
-      <SparklesCore/> 
+      <SparklesCore />
     </SiteThemeProvider>
   );
 };
